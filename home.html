@@ -1,0 +1,877 @@
+<html>
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body data-bs-spy="scroll" data-bs-target=".navbar" data-bs-offset="50">
+
+    <nav class="navbar">
+        <div class="container">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <div class="navbar-header">
+                <a class="navbar-brand" href="#">ARSHA</a>
+            </div>
+            <div class="collapse navbar-collapse" id="mynavbar">
+                <ul class="nav navbar-nav navbar-right">
+                    <li><a class="nav-link scrollto active" href="#hero">Home</a></li>
+                    <li><a class="nav-link scrollto" href="#about">About</a></li>
+                    <li><a class="nav-link scrollto" href="#services">Services</a></li>
+                    <li><a class="nav-link   scrollto" href="#portfolio">Portfolio</a></li>
+                    <li><a class="nav-link scrollto" href="#team">Team</a></li>
+                    <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">Dropdown<span
+                                class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li ><a href="#" style="color:white;">page 1</a></li>
+                            <li><a href="#" style="color:white;">page 2</a></li>
+                            <li><a href="#" style="color:white;">page 3</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contact</a></li>
+                    <button type="submit" class="btn btn-default btn0">Get Started</button>
+            </div>
+            </ul>
+
+
+
+        </div>
+        <div class="container banner" id="hero">
+            <div class="row">
+                <div class="col col-sm-6 col-xs-12">
+                    <h1>Better Solutions For Your Business</h1>
+                    <h4>We are team of talented designers making websites with Bootstrap</h4>
+                    <div class="row">
+                        <button type="submit" class="btn2 btn-default">Get Started</button>
+
+                        <i class="fa fa-play-circle-o fontawesom" aria-hidden="true"> Watch Vedio</i>
+
+
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-xs-12">
+                    <img class="img-responsive" alt="banner" src="hero-img.png">
+                </div>
+            </div>
+        </div>
+
+    </nav>
+    <div class="container-fluid bg-light p-5 main">
+        <div class="container">
+            <div class="row images">
+                <div class="col-sm-4 col-md-2 col-xs-4">
+                    <img src="client-1.png" style="width:50%;" class="p-1">
+                </div>
+                <div class="col-sm-4 col-md-2 col-xs-4">
+                    <img src="client-2.png" style="width:50%">
+                </div>
+                <div class="col-sm-4 col-md-2 col-xs-4">
+                    <img src="client-3.png" style="width:50%">
+                </div>
+                <div class="col-sm-4 col-md-2 col-xs-4">
+                    <img src="client-4.png" style="width:50%">
+                </div>
+                <div class="col-sm-4 col-md-2 col-xs-4">
+                    <img src="client-5.png" style="width:50%">
+                </div>
+                <div class="col-sm-4 col-md-2 col-xs-4">
+                    <img src="client-6.png" style="width:50%">
+                </div>
+            </div>
+        </div>
+    </div>
+        <div class="container" id="about">
+            <h2 class="about priceheader">ABOUT US</h2>
+            <div class="row">
+                <div class="col-sm-6 col-xs-12 about1">
+                    <p> Lorem ipsun dolor sit amet, consectrure adioising elit, set do eiusmot tempor incididunt ut
+                        labore
+                        et dolore magna aliqua.</p>
+                    <div><i class="fa fa-check" aria-hidden="true" id="i"></i> Ullamco laboris nisi ut aliquip ex ea
+                        commondo consequat</div>
+                    <div><i class="fa fa-check" aria-hidden="true" id="i"></i> Dius aute inure solor in reprehender it
+                        in
+                        voluptete velit</div>
+                    <div><i class="fa fa-check" aria-hidden="true" id="i"></i> Ullamco laboris nisi ut aliquip ex ea
+                        commondo consequat</div>
+                </div>
+
+                <div class="col-sm-6 col-xs-12 about2">
+                    <p>Ullamco laboris nisi ut aliquip ex ea commondo consequat. Dius aute inure solor in reprehender it
+                        in
+                        voluptete velit. Ullamco laboris nisi ut aliquip ex ea commondo consequat. Lorem ipsum dolor sit
+                        amet, consectetur adipisicing elit.
+                        <span id="dots">...</span><span id="more">excepturi deserunt! Nisi
+                            architecto voluptatibus, corporis exercitationem iste laborum explicabo. </span>
+                    </p> <button onclick="myFunction()" id="myBtn">Learn more</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid middle">
+        <div class="container">
+            <div class="row middlecontent">
+                <div class="col-sm-6 col-xs-12">
+                    <h2 class="heading">Eum ipsam laborum deleniti <strong>Velit pariatur architecto aut nihil</strong>
+                    </h2>
+                    <p class="heading-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, id iusto
+                        numquam voluptatibus qui
+                        eaque accusantium delectus necessitatibus nesciunt sequi! Cupiditate corporis dolores
+                        perspiciatis
+                        temporibus expedita odio provident eligendi ratione!</p>
+
+                    <div class="panel-group" id="accordion">
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="background-color:white">
+                                <h4 class="panel-title">
+                                    <a class="accordion-toggle" data-toggle="collapse" data-parent="#accordion"
+                                        href="#collapse1">
+
+
+                                        <p style="color:rgb(30, 195, 236); height:20px;">01 Non consecteture a erat nam
+                                            at
+                                            letus urna
+                                            duis?</p>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse1" class="panel-collapse collapse in">
+                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam,
+                                    .</div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="background-color:white">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse2">
+                                        <p style="color:rgb(30, 195, 236); height:20px;">02 Feugiat
+                                            scelerisque varius morbi enim nunc?</p>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse2" class="panel-collapse collapse">
+                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                            </div>
+                        </div>
+                        <div class="panel panel-default">
+                            <div class="panel-heading" style="background-color:white">
+                                <h4 class="panel-title">
+                                    <a data-toggle="collapse" data-parent="#accordion" href="#collapse3">
+                                        <p style="color:rgb(30, 195, 236); height:20px;">03 Dolor sit
+                                            amet
+                                            consectetr adipiscing elit?</p>
+                                    </a>
+                                </h4>
+                            </div>
+                            <div id="collapse3" class="panel-collapse collapse">
+                                <div class="panel-body">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+                                    sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                                    veniam,
+                                    quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col col-sm-6 col-xs-12">
+                    <img class="img-responsive why-us" alt="why us" src="why-us.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container">
+        <div class="row">
+            <div class="container col col-sm-6 col-xs-12 grap">
+                <img class="img-responsive graphimg" alt="why us" src="skills.png">
+            </div>
+            <div class="col col-sm-6 col-xs-12 grap">
+                <h2 class="heading"><strong>Voluptatem dignissimos provident quasi corporis voluptates</strong></h2>
+                <p class="heading-content">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, id iusto
+                    numquam voluptatibus aliqua. consectetur adipisicing elit consectetur adipisicing elit consectetur
+                    adipisicing elit.
+                </p>
+                <div>
+                    <h5 class="progress-title">HTML<p class="right">10%</p>
+                    </h5>
+
+                    <div class="progress" style="height:15px;">
+                        <div class="progress-bar" style="width:100%; height:15px">
+                        </div>
+                    </div>
+                    <h5 class="progress-title">CSS<p class="right">90%</p>
+                    </h5>
+
+                    <div class="progress" style="height:15px;">
+                        <div class="progress-bar" style="width:90%; height:15px">
+                        </div>
+                    </div>
+                    <h5 class="progress-title">JAVASCRIPT<p class="right">75%</p>
+                    </h5>
+
+                    <div class="progress" style="height:15px;">
+                        <div class="progress-bar" style="width:75%; height:15px">
+                        </div>
+                    </div>
+                    <h5 class="progress-title">PHOTOSHOP<p class="right">55%</p>
+                    </h5>
+
+                    <div class="progress" style="height:15px;">
+                        <div class="progress-bar" style="width:55%; height:15px">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid service" id="services">
+        <div class="container">
+            <h2><strong>SERVICES</strong></h2>
+            <p class="servicep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex itaque non at natus magnam
+                sunt. Eaque
+                recusandae
+                expedita nemo animi quia rem assumenda autem vel blanditiis quidem. Magnam, at provident! Lorem ipsum,
+                dolor
+                ex totam eligendi quibusdam?</p>
+
+            <div class="row">
+                <div class="col-sm-3 col-xs-6">
+                    <div class="box">
+
+                        <h3><i class="fa fa-dribbble" aria-hidden="true" style="color:rgb(30, 195, 236);"
+                                aria-hidden="true"></i></h3>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Voluptatus delniti atque corrupti quos dolores et quas molestias excepture</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="box">
+
+
+                        <h3><i class="fa fa-file" style="color:rgb(30, 195, 236);" aria-hidden="true"></i></h3>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Voluptatus delniti atque corrupti quos dolores et quas molestias excepture</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="box">
+
+                        <h3><i class="fa fa-clock-o" aria-hidden="true" style="color:rgb(30, 195, 236);"
+                                aria-hidden="true" style="color:rgb(30, 195, 236);" aria-hidden="true"></i></h3>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Voluptatus delniti atque corrupti quos dolores et quas molestias excepture</p>
+                    </div>
+                </div>
+                <div class="col-sm-3 col-xs-6">
+                    <div class="box">
+
+                        <h3><i class="fa fa-book" aria-hidden="true" style="color:rgb(30, 195, 236);" aria-hidden="true"
+                                style="color:rgb(30, 195, 236);" aria-hidden="true"></i></h3>
+                        <h3>Lorem Ipsum</h3>
+                        <p>Voluptatus delniti atque corrupti quos dolores et quas molestias excepture</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section id="cta" class="cta">
+        <div class="container" data-aos="zoom-in">
+  
+          <div class="row">
+            <div class="col-lg-9 text-center text-lg-start">
+              <h3>Call To Action</h3>
+              <p> Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="col-lg-3 cta-btn-container text-center">
+              <a class="cta-btn align-middle" href="#">Call To Action</a>
+            </div>
+          </div>
+  
+        </div>
+      </section>
+    
+    <div class="container portfolio" id="portfolio">
+        
+        <h2 class="portheading">PORTFOLIO</h2>
+        <p class="portp">Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus quia, aliquam culpa obcaecati ad
+            voluptate
+            officiis, animi perspiciatis vitae vero illum aspernatur, aliquid nam repellat quam officia laboriosam totam
+            facere.
+        </p>
+        <div class="text-center">
+            <div class="btn-group">
+                <button type="button" class="btn5 active">All</button>
+                <button type="button" class="btn5">App</button>
+                <button type="button" class="btn5">Card</button>
+                <button type="button" class="btn5">Web</button>
+            </div>
+       </div>
+      
+        <div class="container port">
+            <div class="row">
+               
+                <div class="column">
+                    <img src="portfolio-1.jpg" style="width:100%">
+                    <img src="portfolio-6.jpg" style="width:100%">
+
+                </div>
+                <div class="column">
+                    <img src="portfolio-2.jpg" style="width:100%">
+                    <img src="portfolio-5.jpg" style="width:100%">
+                    <img src="portfolio-9.jpg" style="width:100%">
+                </div>
+                <div class="column">
+                    <img src="portfolio-3.jpg" style="width:100%">
+                    <img src="portfolio-4.jpg" style="width:100%">
+                    <img src="portfolio-7.jpg" style="width:100%">
+                    <img src="portfolio-8.jpg" style="width:100%">
+                </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+    <div class="container-fluid team" id="team">
+        <div class="container">
+            <h2 class="teamheader">TEAM</h2>
+            <p class="teamp">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Impedit, mollitia numquam,
+                explicabo totam magnam perferendis libero facilis quidem quia ipsa ipsam quasi, tempore eaque. Dicta
+                velit sit non eum ratione.</p>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 col-xs-12">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="team-1.jpg" class="media-object"
+                                style="width:150px; height:150px; border-radius: 50%;">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Walter White</h3>
+                            <p>Chief Executive Officer</p>
+                            <p>_________</p>
+                            <p>Explicabo voluptatem mollitia et repellat qui dolorum quasi</p>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 col-xs-12">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="team-2.jpg" class="media-object"
+                                style="width:150px; height:150px; border-radius: 50%;">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Sarah Jhonson</h3>
+                            <p>Product Manager</p>
+                            <p>_________</p>
+                            <p>Atul maiores voluptates amet et quis praesentius qui sendra para</p>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+            <div class="row">
+                <div class="col-sm-12 col-lg-6 col-xs-12">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="team-3.jpg" class="media-object"
+                                style="width:150px; height:150px; border-radius: 50%;">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">William Anderson</h3>
+                            <p>CTO</p>
+                            <p>_________</p>
+                            <p>Quisquam facikis cum velit laborum corrupti fuga retum</p>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-6 col-xs-12">
+                    <div class="media">
+                        <div class="media-left">
+                            <img src="team-4.jpg" class="media-object"
+                                style="width:150px; height:150px; border-radius: 50%;">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Amanda Jeoson</h3>
+                            <p>Accountant</p>
+                            <p>_________</p>
+                            <p>Dolorum tempora officiis odit laborum officlis et et accusamus</p>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+                        </div>
+                    </div>
+                </div>
+                <br><br>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="priceheader">PRICING</h2>
+            <p class="pricep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid nam recusandae, Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid nam recusandae perspiciatis ea accusamus
+                fuga</p>
+
+            <div class="columns col-lg-4">
+                <ul class="price fa-ul">
+
+
+                    <li class="header">
+                        <h5 class="card-title text-uppercase  title">Free Plan</h5>
+                        <h6 class="card-price">$0</h6>
+                        <p class="per">per month</p>
+                    </li>
+                    <li> <i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Quam
+                        adipiscing vitae
+                        proin</li>
+                    <li><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Nec
+                        feugiat nisl
+                        pretium</li>
+                    <li><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Nulla at
+                        volutpat
+                        diam uteera</li>
+                    <li class="text-muted" style="text-decoration:line-through;"><i class="fa fa-close"></i> Pharetra
+                        massa
+                        massa ulticies</li>
+                    <li class="text-muted" style="text-decoration:line-through;"><i class="fa fa-close"></i> Massa
+                        ultricies mi quis hendretrit</li>
+                    <li><a href="#" class="btn btn-primary text-uppercase btn6">Get Started</a></li>
+                </ul>
+            </div>
+            <div class="columns1 col-lg-4">
+                <ul class="price fa-ul">
+
+
+                    <li class="header">
+                        <h5 class="card-title text-uppercase  title">Business Plan</h5>
+                        <h6 class="card-price">$29</h6>
+                        <p class="per">per month</p>
+                    </li>
+                    <li> <i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Quam
+                        adipiscing vitae
+                        proin</li>
+                    <li><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i>Nec
+                        feugiat nisl
+                        pretium</li>
+                    <li><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Nulla at
+                        volutpat
+                        diam uteera</li>
+                    <li class=" "><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Pharetra
+                        massa
+                        massa ulticies</li>
+                    <li class=" "><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Massa
+                        ultricies mi quis hendretrit</li>
+                    <li><a href="#" class="btn btn-primary text-uppercase btn7">Get Started</a></li>
+                </ul>
+            </div>
+            <div class="columns col-lg-4">
+                <ul class="price">
+
+
+                    <li class="header">
+                        <h5 class="card-title text-uppercase  title">Developer Plan</h5>
+                        <h6 class="card-price">$49</h6>
+                        <p class="per">per month</p>
+                    </li>
+                    <li><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i>Quam
+                        adipiscing vitae
+                        proin</li>
+                    <li><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Nec
+                        feugiat nisl
+                        pretium</li>
+                    <li><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Nulla at
+                        volutpat
+                        diam uteera</li>
+                    <li class=""><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Pharetra
+                        massa
+                        massa ulticies</li>
+                    <li class=""><i class="fa fa-check" aria-hidden="true"
+                            style="color:green; background-color:white; border:none; padding:0; margin:0;"></i> Massa
+                        ultricies mi quis hendretrit</li>
+                    <li><a href="#" class="btn btn-primary text-uppercase btn6">Get Started</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid question">
+        <div class="container">
+            <h2 class="priceheader">FREQUENTLY ASKED QUESTIONS</h2>
+            <p class="pricep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid nam recusandae,
+                Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid nam recusandae perspiciatis ea
+                accusamus
+                fuga</p>
+        </div>
+        <div class="wrapper center-block">
+            <div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+                <div class="panel panel-default">
+                    <div class="panel-heading active" role="tab" id="headingOne">
+                        <h4 class="panel-title" style="color:rgb(30, 195, 236);">
+                            <a role="button" data-toggle="collapse" data-parent="#accordion" href="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                <i class="fa fa-question" aria-hidden="true"
+                                    style="background-color:white; color:rgb(88, 202, 223); "></i>
+                                Non consectetr a erat nam at lectus urna duis?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseOne" class="panel-collapse collapse in" role="tabpanel"
+                        aria-labelledby="headingOne">
+                        <div class="panel-body">
+                            <p>
+                                With Solodev CMS, you and your visitors will benefit from a finely-tuned
+                                technology stack that drives the highest levels of site performance, speed and
+                                engagement - and contributes more to your bottom line. Our users fell in love
+                                with: </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa fa-question" aria-hidden="true"
+                                    style="background-color:white; color:rgb(88, 202, 223);"></i> Feugiat scelerisque
+                                varius mobi enim nunc?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseTwo" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dicta non ipsum
+                            dignissimos voluptate quia voluptatem facere eius numquam. Beatae rem totam mollitia eaque
+                            quam eius, nostrum sint officiis aperiam.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseThree" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa fa-question" aria-hidden="true"
+                                    style="background-color:white; color:rgb(88, 202, 223);"></i> Dolor sit amet
+                                consectetur adipiscing elit?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseThree" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dicta non ipsum
+                            dignissimos voluptate quia voluptatem facere eius numquam. Beatae rem totam mollitia eaque
+                            quam eius, nostrum sint officiis aperiam.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingTwo">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseFour" aria-expanded="false" aria-controls="collapseTwo">
+                                <i class="fa fa-question" aria-hidden="true"
+                                    style="background-color:white; color:rgb(88, 202, 223);"></i> Tempus quam
+                                pellentesque nec nam aliquam sem et tortor consequat?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFour" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingTwo">
+                        <div class="panel-body">
+                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis dicta non ipsum
+                            dignissimos voluptate quia voluptatem facere eius numquam. Beatae rem totam mollitia eaque
+                            quam eius, nostrum sint officiis aperiam.
+                        </div>
+                    </div>
+                </div>
+                <div class="panel panel-default">
+                    <div class="panel-heading" role="tab" id="headingThree">
+                        <h4 class="panel-title">
+                            <a class="collapsed" role="button" data-toggle="collapse" data-parent="#accordion"
+                                href="#collapseFive" aria-expanded="false" aria-controls="collapseThree">
+                                <i class="fa fa-question" aria-hidden="true"
+                                    style="background-color:white; color:rgb(88, 202, 223);"></i> Tortor vitae purus
+                                faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor?
+                            </a>
+                        </h4>
+                    </div>
+                    <div id="collapseFive" class="panel-collapse collapse" role="tabpanel"
+                        aria-labelledby="headingThree">
+                        <div class="panel-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice
+                            lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you
+                            probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <div class="container-fluid">
+        <div class="container">
+            <h2 class="priceheader">CONTACT</h2>
+            <p class="pricep">Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid nam recusandae,
+                Lorem
+                ipsum dolor sit amet consectetur adipisicing elit. Vel aliquid nam recusandae perspiciatis ea
+                accusamus
+                fuga</p>
+            <div class="row">
+                <div class="col-sm-5 col-xs-12">
+                    <div class="address">
+                        <div class="media3">
+                            <div class="media-left">
+                                <i class="fa fa-map-marker" aria-hidden="true"
+                                    style="color:rgb(88, 202, 223); height:40px; width:40px; padding:10px 12px; "></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Location</h4>
+                                <p>A108 Adam Street, New York, NY 535022</p>
+
+                            </div>
+                        </div>
+                        <div class="media1">
+                            <div class="media-left">
+                                <i class="fa fa-envelope" aria-hidden="true"
+                                    style="color:rgb(88, 202, 223);height:40px; width:40px; padding:10px 12px; "></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Email:</h4>
+                                <p>info@example.com</p>
+
+                            </div>
+                        </div>
+                        <div class="media2">
+                            <div class="media-left">
+                                <i class="fa fa-phone" aria-hidden="true"
+                                    style="color:rgb(88, 202, 223); height:40px; width:40px; padding:10px 12px; "></i>
+                            </div>
+                            <div class="media-body">
+                                <h4 class="media-heading">Call:</h4>
+                                <p>+155895548855s</p>
+
+                            </div>
+                        </div>
+                        <div class="map-responsive">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12098.263991018004!2d-74.00616565814433!3d40.70555508581339!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c25a220cfc254b%3A0xa79d30b44cff1816!2sHitspro!5e0!3m2!1sen!2sin!4v1669093123357!5m2!1sen!2sin"
+                                width="400" height="250" style="border:0; margin: 10px;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-7 col-xs-12">
+
+                    <form class="form1" action="/action_page.php">
+                        <div class="col-sm-6 form-group">
+                            <label for="yourname">Your Name</label>
+                            <input class="form-control" id="name" name="name" type="name" required>
+                        </div>
+
+                        <div class="col-md-6 form-group">
+                            <label for="email">Your Email</label>
+                            <input class="form-control" id="email" name="email" type="email" required>
+                        </div>
+
+                        <div class="col-sm-12 form-group">
+                            <label for="subject">Subject</label>
+                            <input class="form-control" id="subject" name="subject" type="text" required>
+                        </div>
+                        <div class="col-sm-12 form-group">
+                            <label for="Message">Message</label>
+                            <textarea id="message" name="subject" style="height:200px"></textarea>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-12 form-group text-center">
+                                <button class="btn btn-default btn7" type="submit">Send Message</button>
+                            </div>
+                        </div>
+                    </form>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+    <div id="footer1">
+
+        <div class="footer-newsletter">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-9">
+                <h4>Join Our Newsletter</h4>
+                <p>Tamen quem nulla quae legam multos aute sint culpa legam noster magna</p>
+
+                <form action="" method="post">
+                  <input type="email" name="email"><input type="submit" value="Subscribe">
+                </form>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <footer class="mainfooter" role="contentinfo">
+        <div class="footer-middle">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-pad">
+                            <h4> ARSHA</h4>
+                            <ul class="list-unstyled">
+                                <li> <a href="#"> </a> </li>
+                                <li> <a href="#">A108 Adam Street</a></li>
+                                <li> <a href="#"> New York, NY 535022</a></li>
+                                <li> <a href="#">United State</a></li>
+                                
+                                <li> <a href="#"><b>Phone:</b>+1 5589 55488 55</a></li>
+                                <li> <a href="#"><b>Email:</b>info@example.com</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-pad">
+                            <h4>Useful Links</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#"> <i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i> Home </a>
+                                </li>
+
+                                <li><a href="#"><i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i> About
+                                        us</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i>
+                                        Services</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i> Terms of
+                                        Service</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i> Privacy
+                                        policy</a></li>
+
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <div class="footer-pad">
+                            <h4>Our Service</h4>
+                            <ul class="list-unstyled">
+                                <li><a href="#"> <i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i> Web
+                                        Design</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i> Web
+                                        Development</a> </li>
+                                <li><a href="#"><i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i> Product
+                                        Managment</a></li>
+                                <li><a href="#"><i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i>
+                                        Marketing</a>
+                                </li>
+                                <li><a href="#"><i class="fa fa-angle-right"
+                                            style="background-color:white; color:rgb(30, 195, 236);"> </i> Graphic
+                                        Design</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-3 col-sm-6 col-xs-6">
+                        <h4>Our Social Network</h4>
+                        <p>Cras fermentum odio eu feugiat lide par naso tierra videa magna derita valies</p>
+                        <ul class="social-network social-circle">
+                            <li><a href="#" class="fa fa-twitter" style="background-color:rgb(30, 195, 236); color:white; font-size: 20px;
+                                padding: 5px 5px;"></a></li>
+                            <li> <a href="#" class="fa fa-facebook" style="background-color:rgb(30, 195, 236); color:white; font-size: 20px;
+                                padding: 5px 5px;"></a>
+                            </li>
+                            <li> <a href="#" class="fa fa-instagram" style="background-color:rgb(30, 195, 236); color:white; font-size: 20px;
+                                padding: 5px 5px;"></a>
+                            </li>
+                            <li> <a href="#" class="fa fa-linkedin" style="background-color:rgb(30, 195, 236); color:white; font-size: 20px;
+                                padding: 5px 5px;"></a>
+                            </li>
+                            <li> <a href="#" class="fa fa-skype" style="background-color:rgb(30, 195, 236); color:white; font-size: 20px;
+                                padding: 5px 5px;"> </a> </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid bottom">
+                <div class="row">
+                    <div class="col-md-12 copy">
+                        <h4 class="bottomh"> © Copyright <b>Arsha</b>All Rights Reserved. <p class="right bottomp">
+                                Designed by
+                                BootstrapMade</p>
+                            <button type="button" class="btn8  btn-floating btn-lg" id="btn-back-to-top"
+                                style="background:rgb(30, 195, 236); background-color:rgb(30, 195, 236); padding:10px 12px;">
+                                <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                            </button>
+                        </h4>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+   <script src="home.js"></script>
+</body>
+
+</html>
